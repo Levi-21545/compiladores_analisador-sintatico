@@ -60,7 +60,7 @@ export function generateValidSentence(): string {
 		if (depthCount > 50) {
 			if (symbol === 'A') return '';
 			if (symbol === 'B') return 'c';
-			if (symbol === 'C') return 'x';
+			if (symbol === 'C') return '';
 		}
 
 		if (!grammar.nonTerminals.includes(symbol)) {
