@@ -36,6 +36,7 @@
     </h3>
     <div class="productions">
       {#each Object.entries(grammar.rules) as [nt, prods]}
+      <!-- align productions left -->
         <div class="production-line">
           <span class="non-terminal">{nt}</span>
           <span class="arrow"> &rarr; </span>
@@ -230,7 +231,7 @@
     background: #252535;
     border-radius: 8px;
     padding: 14px 20px;
-    max-width: 420px;
+    max-width: 200px;
     margin: 0 auto 20px;
     border: 1px solid #353550;
   }
@@ -238,6 +239,7 @@
   .production-line {
     padding: 3px 0;
     font-size: 0.95em;
+    text-align: left;
   }
 
   .non-terminal {
