@@ -51,9 +51,9 @@
       <table class="table">
         <thead>
           <tr>
-            <th class="th th--left">Não-Terminal</th>
-            <th class="th th--left">FIRST</th>
-            <th class="th th--left">FOLLOW</th>
+            <th class="th th--center">Não-Terminal</th>
+            <th class="th th--center">FIRST</th>
+            <th class="th th--center">FOLLOW</th>
           </tr>
         </thead>
         <tbody>
