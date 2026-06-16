@@ -146,10 +146,10 @@
         <table class="table">
           <thead>
             <tr>
-              <th class="th th--left">Passo</th>
-              <th class="th th--left">Pilha (Stack)</th>
-              <th class="th th--left">Entrada Restante</th>
-              <th class="th th--left">Ação Executada</th>
+              <th class="th th--center">Passo</th>
+              <th class="th th--center">Pilha (Stack)</th>
+              <th class="th th--center">Entrada Restante</th>
+              <th class="th th--center">Ação Executada</th>
             </tr>
           </thead>
           <tbody>
